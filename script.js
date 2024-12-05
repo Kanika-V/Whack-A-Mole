@@ -22,7 +22,7 @@ function randomHole(holes) {
 function popUp() {
   const hole = randomHole(holes);
   const mole = document.createElement("img");
-  mole.src = "/mole.png"; // Corrected direct image URL
+  mole.src = "./mole.png"; // Corrected direct image URL
   mole.classList.add("mole");
   hole.appendChild(mole);
   mole.addEventListener("click", () => {
