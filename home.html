@@ -1,86 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Whack-a-Mole is an interactive game aimed at testing your reflexes." />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
 </head>
+
 <style>
-ul {
-list-style-type: none;
-overflow: hidden;
-background-color: #D9763D;
-text-align: center;
-}
-li {
-float: left;
-}
-li a {
-display: block;
-color: #F2E085;
-text-align: center;
-padding: 20px 161px;
-text-decoration: none;
-}
-li a:hover {
-background-color: #BF6A4B;
-}
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #d9763d;
+        text-align: center;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: #f2e085;
+        text-align: center;
+        padding: 20px 161px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #bf6a4b;
+    }
+
+    #video {
+        margin-bottom: 4em;
+    }
 </style>
+
 <body>
-<ul>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Game</a></li>
+    </ul>
 
-    <li><a href="home.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="index.html"">Game</a></li>
-</ul>
-<h1>Welcome to Whack-a-Mole!</h1>
-<p class="game-description">
-    Whack-A-Mole is an interactive game aimed at testing your reflexes.
-    Click on the moles that appear on the screen in order to get points. Once you catch the the moles you'll start to rack up a score.
-    
-</p>
+    <h1>Welcome to Whack-a-Mole!</h1>
+    <p class="game-description">
+        Whack-A-Mole is an interactive game aimed at testing your reflexes. Click
+        on the moles that appear on the screen in order to get points. Once you
+        catch the moles, you'll start to rack up a score.
+    </p>
 
+    <p class="warning-home">
+        But watch out, you only have 60 seconds! Click
+        <a href="index.html">"Game"</a> to play! And refresh the page to give it
+        another go!
+    </p>
 
-<p class="warning-home">
-    But watch out, you only have 60 seconds! Click <a href="index.html">"Game"</a> to play! And refresh the page to give it another go!
-</p>
+    <h3>
+        <u>How to Play!</u>
+    </h3>
 
-
-
-
-<h3>
-  <u> How to Play!</u>
-</h3>
-
-
-
-<iframe width="1007" height="514" src="https://www.youtube.com/embed/HsfShEgZpcg" title="Whack-a-Mole Game Rules" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <iframe id="video" width="1007" height="514" src="https://www.youtube.com/embed/HsfShEgZpcg" title="Whack-a-Mole Game Rules"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </body>
 </html>
